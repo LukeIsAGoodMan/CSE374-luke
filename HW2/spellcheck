@@ -1,0 +1,58 @@
+#!/bin/bash 
+#peiyaohe
+#10.27. 2022
+#version 12
+#already passed
+
+#Firt handle the null input
+if [ "$#" -lt 1 ]
+  then
+  echo "Usage filename ..." 1>&2
+  exit 1
+fi
+#now deal with each argument as filename oneby one
+while [ "$#" -gt 0 ]; do
+  #if the input is invalid skipping  
+  if [ ! -f "$1" ]; then
+    echo ""$1" does not exist -skipping." 1>&2
+    shift
+    continue
+  else
+    #if the input is new creat a new spelling  
+    if [ ! -f "$1"".spelling" ]; then
+      touch  "$1"".spelling"
+      echo "creating "$1"".spelling file""
+    else
+    #if already exist repalce with an empty file
+      rm "$1"".spelling"
+      touch "$1"".spelling"
+      echo "replacing "$1"".spelling file""
+    fi
+    #read the file word by word
+    while read -ra line;
+    do
+      for word in "${line[@]}";
+      do
+	# the core here is to compare the word with dict  
+        if ! grep -i -q "^$word$" /usr/share/dict/words
+	# if doesnt match put into spelling
+	then
+          echo "$word"  >> "$1"".spelling"
+        fi
+      done
+    done < "$1"
+    # if spelling is empty means 0 wrong spelling
+    if  [ ! -s "$1"".spelling" ]
+    then
+      rm "$1"".spelling"
+      echo "processed "$1" and found 0 spelling eroors 0 of which are unique."
+    else
+    # else count the total and uniq spelling erro and output
+      res=$( wc -l <"$1"".spelling" )
+      res2=$( sort -u <"$1"".spelling"| wc -l )
+      echo "processed "$1" and found $res spelling errors $res2 of which are unique."
+    fi
+  fi
+  shift
+done
+
