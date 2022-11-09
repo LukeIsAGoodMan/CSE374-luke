@@ -1,0 +1,28 @@
+#!/bin/bash
+# HW2
+# Problem 1
+# peiyaohe
+#oct 27
+#version 8
+#one erro in handle existing f1
+# checking if there are less than 2 arguments
+
+if [ "$#" -lt 2 ]; then
+  echo 'Usage: combine outputfilename[inputfilename ...]' 1>&2    #print error msg to stderr
+  exit 1 #return code
+fi
+ 
+#checking the exsitency of  input file 
+if [ -e "$1" ]; then
+  echo 'Error: Output file should not exsit ' 1>&2     # print another erro msg to stderr
+  exit 1 #return code
+else
+  #creat output file
+  COMBINE="$1"
+  shift
+  #shift here shift the output file and the rest is combined files
+  cat "$@" &> "$COMBINE"
+  #&> redirect stdout and stderr to a file. lecture 3 page 12
+  
+fi
+exit 0
