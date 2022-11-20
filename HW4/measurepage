@@ -1,0 +1,26 @@
+#!/bin/bash 
+# peiyaohe
+# CSE374 HW4
+# NOV 15
+
+
+#Firt handle the null input
+if [ "$#" -lt 1 ]
+  then
+  echo "Usage: measurepage inputurl" >&2 #print errmsg if no input
+  exit 1
+fi
+#use quiet option to depress, also redirect the wget content to file to read
+wget -q -O temp1 "$1"
+#if file is empty means didnt download failed
+if [ ! -s temp1 ]
+  then
+  echo "0"  
+  rm temp1   #always remove the temp when exit  
+  exit 0    
+else
+  #else count the file and redirect to stdout
+  wordcount -w temp1 >&1
+  rm temp1 #always remove the temp when exit 
+  exit 0  
+fi

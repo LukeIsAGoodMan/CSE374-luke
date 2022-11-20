@@ -1,0 +1,133 @@
+Script started on 2022-11-20 01:40:02-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="178" LINES="47"]
+]777;notify;Command completed;emacs hw4.script\]777;precmd\]0;peiyaohe@localhost:~/cse374/hw4\]7;file://localhost/home/peiyaohe/cse374/hw4\[?2004h[peiyaohe@localhost hw4]$ emacs hw4.script[1@script[C[C[C[C[C[C[C[C[C[C[C[3Prm hw4.script~lecturelist.html[9Purllistdataouthw4.scriptls[KThe second number means the average words among these c files[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfirst number means the total words of all the c files provided in the urllist[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPart5 Step 9[K2. but generally, the C file contains no more than 200 words, which means the ccode provided in courses are realtively short[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1. the first 5 c file are small in size, but with our understanding of C imporves, we start to get touch with some big size c file.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI get 2 observations[K[8PPart5 Step 8emacs hw4.script[1@script[C[C[C[C[C[C[C[C[C[C[Cls[Kscript hw4.script[1Pemacs[C[C[C[C[C[C[C[C[C[C[C[1@script[C[C[C[C[C[C[C[C[C[C[Cls[Krm hw4.script[4@script[C[C[C[C[C[C[C[C[C[C[C[8Prm outputlecturelist.html[9Pdataoutcat hw4.script[2@emacs[C[C[C[C[C[C[C[C[C[C[C[2Pcat[C[C[C[C[C[C[C[C[C[C[C[3@scrip[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm hw4.script[4@script[C[C[C[C[C[C[C[C[C[C[Crm scatterplot_out.jpg[1Pt_out.jpg[2Plecturelist.htmlls[Kecho $USERNAME[KRscript scatterplot.R[4Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@Rscrip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pecho $USER
+[?2004l]777;preexec\peiyaohe
+]777;notify;Command completed;echo $USER\]777;precmd\]0;peiyaohe@localhost:~/cse374/hw4\]7;file://localhost/home/peiyaohe/cse374/hw4\[?2004h[peiyaohe@localhost hw4]$ echo $USERmacs hw4.script[1@script[C[C[C[C[C[C[C[C[C[C[C[3Prm hw4.script~lecturelist.html[9Purllistdataouthw4.scriptls[KThe second number means the average words among these c files[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfirst number means the total words of all the c files provided in the urllist[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPart5 Step 9[K2. but generally, the C file contains no more than 200 words, which means the ccode provided in courses are realtively short[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1. the first 5 c file are small in size, but with our understanding of C imporves, we start to get touch with some big size c file.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI get 2 observations[K[8PPart5 Step 8emacs hw4.script[1@script[C[C[C[C[C[C[C[C[C[C[Cls[Krm hw4.script[4@script[C[C[C[C[C[C[C[C[C[C[C[8Prm outputlecturelist.html[9Pdataoutcat hw4.script[2@emacs[C[C[C[C[C[C[C[C[C[C[C[2Pcat[C[C[C[C[C[C[C[C[C[C[C[3@scrip[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm hw4.script[4@script[C[C[C[C[C[C[C[C[C[C[Crm scatterplot_out.jpg[1Pt_out.jpg[2Plecturelist.htmlls[Kecho $USERNAME[KRscript scatterplot.R[4Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm scatterplot_out.jpgls[Kcat scatterplot_out.jpg[1@more[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[KRscript scatterplot.R > /dev/null[9P-q scatterplot.Rls[Kchmod u+x scatterplot.R ls[Kwget https://courses.cs.washington.edu/courses/cse374/22au/assignments/scatterplot.R[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat dataout[Krunanalysis dataout testurls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pemacs runanalysisrunanalysis dataout testurls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pemacs runanalysisrunanalysis dataout testurls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pemacs runanalysisrunanalysis dataout testurls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pemacs runanalysisrunanalysis dataout testurls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pcat dataoutwget https://courses.cs.washington.edu/courses/cse374/22au/assignments/scatterplot.R[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kchmod u+x scatterplot.R ls[KRscript -q scatterplot.Rscatterplot.R > /dev/null[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmore scatterplot_out.jpg[1Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm scatterplot_out.jpg[5Pcat scatterplot.R[4@Rscrip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pecho $USERNAMEls[Krm lecturelist.htmlscatterplt_out.jpgot_out.jpg[5Pscript hw4.script[4Prm[C[C[C[C[C[C[C[C[C[C[Cls[Kscript hw4.script[3Pca[C[C[C[C[C[C[C[C[C[C[C[C[2@emacs[C[C[C[C[C[C[C[C[C[C[C[2Pcat[C[C[C[C[C[C[C[C[C[C[C[4Prm dataoutlecturelist.html[10Poutputscript hw4.script[4Prm[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[Kexport PAYT[K[KTH =[K=[K[K=$OART[K[K[K[KPATH:$(pwd)
+[?2004l]777;preexec\]777;notify;Command completed;export PATH=$PATH:$(pwd)\]777;precmd\]0;peiyaohe@localhost:~/cse374/hw4\]7;file://localhost/home/peiyaohe/cse374/hw4\[?2004h[peiyaohe@localhost hw4]$ echo $PATH
+[?2004l]777;preexec\/usr/lib/java/apache-maven-3.8.6/bin:/usr/lib/java/apache-ant-1.10.12/bin:/usr/lib/java/apache-maven-3.8.6/bin:/usr/lib/java/apache-ant-1.10.12/bin:/home/peiyaohe/.local/bin:/home/peiyaohe/bin:/usr/lib/java/apache-maven-3.8.6/bin:/usr/lib/java/apache-ant-1.10.12/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/peiyaohe/cse374/hw4
+]777;notify;Command completed;echo $PATH\]777;precmd\]0;peiyaohe@localhost:~/cse374/hw4\]7;file://localhost/home/peiyaohe/cse374/hw4\[?2004h[peiyaohe@localhost hw4]$ echo $PATHxport PATH=$PATH:$(pwd)[14Pcho $USERmacs hw4.script[1@script[C[C[C[C[C[C[C[C[C[C[C[3Prm hw4.script~lecturelist.html[9Purllistdataouthw4.scriptls[KThe second number means the average words among these c files[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfirst number means the total words of all the c files provided in the urllist[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPart5 Step 9[K2. but generally, the C file contains no more than 200 words, which means the ccode provided in courses are realtively short[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1. the first 5 c file are small in size, but with our understanding of C imporves, we start to get touch with some big size c file.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI get 2 observations[K[8PPart5 Step 8emacs hw4.script[1@script[C[C[C[C[C[C[C[C[C[C[Cls[Krm hw4.script[4@script[C[C[C[C[C[C[C[C[C[C[C[8Prm outputlecturelist.html[9Pdataoutcat hw4.script[2@emacs[C[C[C[C[C[C[C[C[C[C[C[2Pcat[C[C[C[C[C[C[C[C[C[C[C[3@scrip[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm hw4.script[4@script[C[C[C[C[C[C[C[C[C[C[Crm scatterplot_out.jpg[1Pt_out.jpg[2Plecturelist.htmlls[Kecho $USERNAME[KRscript scatterplot.R[4Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm scatterplot_out.jpgls[Kcat scatterplot_out.jpg[1@more[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[KRscript scatterplot.R > /dev/null[9P-q scatterplot.Rls[Kchmod u+x scatterplot.R ls[Kwget https://courses.cs.washington.edu/courses/cse374/22au/assignments/scatterplot.R[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat dataout[Kwget https://courses.cs.washington.edu/courses/cse374/22au/assignments/scatterplot.R
+[?2004l]777;preexec\--2022-11-20 01:41:51--  https://courses.cs.washington.edu/courses/cse374/22au/assignments/scatterplot.R
+Resolving courses.cs.washington.edu (courses.cs.washington.edu)... 128.208.1.193, 2607:4000:200:10::c1
+Connecting to courses.cs.washington.edu (courses.cs.washington.edu)|128.208.1.193|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 417 [text/plain]
+Saving to: ‘scatterplot.R.1’
+
+scatterplot.R.1                                0%[                                                                                             ]       0  --.-KB/s               scatterplot.R.1                              100%[============================================================================================>]     417  --.-KB/s    in 0s      
+
+2022-11-20 01:41:51 (79.2 MB/s) - ‘scatterplot.R.1’ saved [417/417]
+
+]777;notify;Command completed;wget https://courses.cs.washington.edu/courses/cse374/22au/assignments/scatterplot.R\]777;precmd\]0;peiyaohe@localhost:~/cse374/hw4\]7;file://localhost/home/peiyaohe/cse374/hw4\[?2004h[peiyaohe@localhost hw4]$ wget https://courses.cs.washington.edu/courses/cse374/22au/assignments/scatterplot.R[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $PATH[Kxport PATH=$PATH:$(pwd)[14Pcho $USERmacs hw4.script[1@script[C[C[C[C[C[C[C[C[C[C[C[3Prm hw4.script~lecturelist.html[9Purllistdataouthw4.scriptls[KThe second number means the average words among these c files[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfirst number means the total words of all the c files provided in the urllist[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPart5 Step 9[K2. but generally, the C file contains no more than 200 words, which means the ccode provided in courses are realtively short[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1. the first 5 c file are small in size, but with our understanding of C imporves, we start to get touch with some big size c file.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI get 2 observations[K[8PPart5 Step 8emacs hw4.script[1@script[C[C[C[C[C[C[C[C[C[C[Cls[Krm hw4.script[4@script[C[C[C[C[C[C[C[C[C[C[C[8Prm outputlecturelist.html[9Pdataoutcat hw4.script[2@emacs[C[C[C[C[C[C[C[C[C[C[C[2Pcat[C[C[C[C[C[C[C[C[C[C[C[3@scrip[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm hw4.script[4@script[C[C[C[C[C[C[C[C[C[C[Crm scatterplot_out.jpg[1Pt_out.jpg[2Plecturelist.htmlls[Kecho $USERNAME[KRscript scatterplot.R[4Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm scatterplot_out.jpgls[Kcat scatterplot_out.jpg[1@more[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[KRscript scatterplot.R > /dev/null[9P-q scatterplot.Rls[Kchmod u+x scatterplot.R [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwget [7mhttps://courses.cs.washington.edu/courses/cse374/22au/calendar/lecturelist.html[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://courses.cs.washington.edu/courses/cse374/22au/calendar/lecturelist.html
+[?2004l]777;preexec\--2022-11-20 01:42:35--  https://courses.cs.washington.edu/courses/cse374/22au/calendar/lecturelist.html
+Resolving courses.cs.washington.edu (courses.cs.washington.edu)... 128.208.1.193, 2607:4000:200:10::c1
+Connecting to courses.cs.washington.edu (courses.cs.washington.edu)|128.208.1.193|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11958 (12K) [text/html]
+Saving to: ‘lecturelist.html’
+
+lecturelist.html                               0%[                                                                                             ]       0  --.-KB/s               lecturelist.html                             100%[============================================================================================>]  11.68K  --.-KB/s    in 0s      
+
+2022-11-20 01:42:35 (28.5 MB/s) - ‘lecturelist.html’ saved [11958/11958]
+
+]777;notify;Command completed;wget https://courses.cs.washington.edu/courses/cse374/22au/calendar/lecturelist.html\]777;precmd\]0;peiyaohe@localhost:~/cse374/hw4\]7;file://localhost/home/peiyaohe/cse374/hw4\[?2004h[peiyaohe@localhost hw4]$ getr[Kurls urllist lc[Kecturelist,[K.html
+[?2004l]777;preexec\]777;notify;Command completed;geturls urllist lecturelist.html\]777;precmd\]0;peiyaohe@localhost:~/cse374/hw4\]7;file://localhost/home/peiyaohe/cse374/hw4\[?2004h[peiyaohe@localhost hw4]$ runanalysis dataout urllist
+[?2004l]777;preexec\Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/hello.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/magic.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/printargs.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/square1.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/control.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/control2.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/fgets.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/argumentdemo.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/dangling.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/pointeradd.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/mystery.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/mystery1.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/mystery2.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/mystery3.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/mystery4.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/arraydemo.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/arraydynamic.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/factorial_orig.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/factorial_fixed.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/reverse_orig.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/reverse_fixed.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/arrdynamicwrong.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/mysterynum.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/point.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/linkedlist_1.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/linkedlist.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/linkedlistclient.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/debug.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/twice.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/main.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/speak.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/shout.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/curve.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/test.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/for.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/testfor.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/hexdemo.c ...
+...successful
+Performing wordcount measurement on https://courses.cs.washington.edu/courses/cse374/22au/lectures/ccode/buffover.c ...
+...successful
+]777;notify;Command completed;runanalysis dataout urllist\]777;precmd\]0;peiyaohe@localhost:~/cse374/hw4\]7;file://localhost/home/peiyaohe/cse374/hw4\[?2004h[peiyaohe@localhost hw4]$ Rscript my[K[Kscatterplot.R
+[?2004l]777;preexec\[1] 3735
+[1] 98.28947
+null device 
+          1 
+]777;notify;Command completed;Rscript scatterplot.R\]777;precmd\]0;peiyaohe@localhost:~/cse374/hw4\]7;file://localhost/home/peiyaohe/cse374/hw4\[?2004h[peiyaohe@localhost hw4]$ exit
+[?2004l]777;preexec\exit
+
+Script done on 2022-11-20 01:43:28-08:00 [COMMAND_EXIT_CODE="0"]
+
+
+Part5 Step 8
+
+I get 2 observations
+
+1. the first 5 c file are small in size, but with our understanding of C imporves, we start to get touch with some big size c file.
+
+2. but generally, the C file contains no more than 200 words, which means the ccode provided in courses are realtively short
+
+
+Part5 Step 9
+
+The first number means the total words of all the c files provided in the urllist
+
+The second number means the average words among these c files

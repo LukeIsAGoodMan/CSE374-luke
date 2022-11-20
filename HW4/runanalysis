@@ -1,0 +1,42 @@
+
+#!/bin/bash
+# HW4
+# CSE374
+# peiyaohe
+# 11.15
+
+# checking if there are less than 2 arguments
+if [ "$#" -lt 2 ]; then
+  echo 'Usage: runanalysis outputfilename inputfilename' >&2    #print error msg to stderr
+  exit 1 #return code
+fi
+ 
+#checking the exsitency of  input file 
+if [ -f "$1" ]; then
+  echo "Replacing "$1"" >&2     # print another erro msg to stderr
+  rm "$1" #replacing
+fi
+
+if [ ! -f "$2" ]; then
+  echo "Cannot find the input file to read " >&2 #print another erro msg to stderr
+  exit 1
+fi
+#index start from 1
+idx=1
+#read by line
+while IFS= read -r line; do
+  echo "Performing wordcount measurement on $line ..."
+  #put the output into result variable
+  result=$( measurepage "$line" )
+  if [[ $result -ne 0 ]]
+  then
+    #if result is not 0 means succeffully read, redirect the res and idx to output file
+    echo "...successful"
+    echo "$idx $result" >> "$1"
+    idx=$((idx+1))
+  else
+    echo "...failure"
+  fi
+done < "$2"
+
+exit 0

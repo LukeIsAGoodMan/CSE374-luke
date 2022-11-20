@@ -1,0 +1,31 @@
+
+#!/bin/bash
+# HW4
+# peiyaohe
+# NOV 11
+
+
+# checking if there are less than 2 arguments
+
+if [ "$#" -lt 2 ]; then
+  echo 'Usage: getruls outputfilename inputfilename' >&2    #print error msg to stderr if input lt 2
+  exit 1 #return code
+fi
+ 
+#checking the exsitency of  input file 
+if [ -f "$1" ]; then
+  echo 'Warning: Output file should not exsit' >&2     # print warning to stdout if outputfile exist
+  rm "$1" #return code
+fi
+
+if [ ! -f "$2" ]; then
+  echo "Error: "$2" does not exist" >&2  #print error msg to stderr if input file does not exist
+  exit 1 #return code
+fi
+
+#first we catch the feature href and .c then we eliminate the part before .. and replace .. with https
+grep -Eo 'href="[^\"]+.c"' lecturelist.html |
+grep -Eo '[./_?a-zA-Z0-9]+.c' |
+sed 's#\.\.#https://courses.cs.washington.edu/courses/cse374/22au#g' >> "$1"
+exit 0
+
